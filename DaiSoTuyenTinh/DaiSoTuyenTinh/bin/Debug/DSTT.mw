@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="18" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true"><Zoom percentage="136"/>
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" quiet="false" errorcursor="false" longdelim="true" plotoptions="" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="768" warnlevel="3" screenheight="25" latexwidth="8.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">C\303\241c h\303\240m t\303\255nh to\303\241n</Font></Text-field></Title>
+<Group labelreference="L1" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DSTT:=module()
+option package;
+export Cramer, Gauss, BacThang, Hang, TinhDet, NghichDao, StepSolve;
+local GetMatrix, GetLatex;
+with(linalg);
+with(LinearAlgebra);
+with(Student[LinearAlgebra]);
+
+
+    GetMatrix:=proc(A)
+        local matran,m,n,i,j;
+        n:=ColumnDimension(A);
+        m:=RowDimension(A);
+        matran:=Matrix(m,n);
+        for i from 1 to m do
+            for j from 1 to n do
+               matran[i,j]:=A[i,j];
+            od;
+        od;
+        return matran;
+    end proc:
+
+    GetLatex:=proc(A)
+        local st,i,j,n,m;
+<Font encoding="UTF-8">        st:=&quot;\134\134left(\134\134begin{matrix} &quot;;
+</Font>        n:=RowDimension(A);
+        m:=ColumnDimension(A);
+        for i from 1 to n do
+            for j from 1 to m do
+                st:=cat(st,convert(A[i,j],`string`));
+                if (j&lt;m) then
+                   st:=cat(st,&quot;&amp;&quot;);
+                fi;
+            od;
+<Font encoding="UTF-8">            if (i&lt;n) then st:=cat(st,&quot;\134\134\134\134&quot;); fi;
+</Font>        od;
+<Font encoding="UTF-8">        st:=cat(st,&quot; \134\134end{matrix}\134\134right)&quot;);</Font>
+        return st;
+    end proc:
+
+    TinhDet:=proc(A)
+        local i,j,k,HeSo,temp,n,m,d,Sol,matran;
+        n:=ColumnDimension(A);
+        m:=RowDimension(A);
+        Sol:=[];
+        if (m&lt;&gt;n) then
+<Font encoding="UTF-8">            Sol:=[op(Sol),[&quot;Ma tr\341\272\255n v\341\273\253a nh\341\272\255p kh\303\264ng ph\341\272\243i ma tr\341\272\255n vu\303\264ng&quot;]];
+</Font>        else
+            d:=1;
+            matran:=GetMatrix(A);
+<Font encoding="UTF-8">            Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 1: Ta c\303\263 ma tr\341\272\255n&quot;,matran]];
+            Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 2: Bi\341\272\277n \304\221\341\273\225i ma tr\341\272\255n v\341\273\201 ma tr\341\272\255n tam gi\303\241c&quot;]];</Font>
+            for i from 1 to n-1 do
+                Sol:=[op(Sol),[&quot;<Font encoding="UTF-8">Th\341\273\261c hi\341\273\207n ph\303\251p kh\341\273\255 c\303\241c ph\341\272\247n t\341\273\255 \341\273\237 c\341\273\231t&quot;,i]];</Font>
+                for j from i+1 to n do
+                    HeSo:=(-1)*A[j,i]/A[i,i];
+                    temp:=convert(HeSo,string);
+                    for k from i+1 to n do
+                        A[j,k]:=A[j,k]+HeSo*A[i,k];
+                    od;
+                    A[j,i]:=0;
+                    matran:=GetMatrix(A);
+                    <Font encoding="UTF-8">Sol:=[op(Sol),[&quot;L\341\272\245y d\303\262ng&quot;,j,&quot;c\341\273\231ng&quot;,temp,&quot;l\341\272\247n d\303\262ng&quot;,i,matran]];</Font>
+                od;
+            od;
+            for i from 1 to n do
+                d:=d*A[i,i];
+            od;
+            temp:=convert(d,string);
+<Font encoding="UTF-8">            Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 3: \304\220\341\273\213nh th\341\273\251c c\341\273\247a ma tr\341\272\255n l\303\240&quot;,temp]];</Font>
+        fi;
+        return Sol;
+            
+    end proc:
+
+    Cramer:=proc(VT,VP)
+                local thaythe, n, i, j, u, C, X, A, temp, Sol, matran, k;
+                global kq;
+                thaythe:=0: u:=1:
+                kq[u]:=det(VT);
+                n:=ColumnDimension(VT):
+                Sol:=[];
+                matran:=GetMatrix(VT);
+<Font encoding="UTF-8">                Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 1: Ta c\303\263 ma tr\341\272\255n h\341\273\207 s\341\273\221 A: &quot;,matran]];
+</Font>                temp:=convert(kq[u],string);
+                Sol:=[op(Sol),[&quot;D=det(A)=&quot;,temp]];
+                matran:=GetMatrix(VP);
+<Font encoding="UTF-8">                Sol:=[op(Sol),[&quot;Ma tr\341\272\255n h\341\273\207 s\341\273\221 t\341\273\261 do B:&quot;,matran]];
+</Font>                A:=convert(VP,vector);
+<Font encoding="UTF-8">                Sol:=[op(Sol),[&quot;B\306\260\341\273\233c 2: &quot;]];
+</Font>                while (thaythe&lt;n) do
+                    C:=Matrix(n):
+                    thaythe:=thaythe+1:
+                    for j from 1 to n do
+                        for i from 1 to n do
+                            if (i=thaythe) then
+                                C[j,i]:=A[j];
+                            else 
+                                C[j,i]:=VT[j,i];
+                            fi;
+                        od;
+                    od;
+                    
+                    Sol:=[op(Sol),[<Font encoding="UTF-8">&quot;Thay c\341\273\231t&quot;,u,&quot;c\341\273\247a A b\341\272\261ng B, ta c\303\263:&quot;</Font>]];
+                    X:=cat(D,u);
+                    u:=u+1;
+                    matran:=GetMatrix(C);
+                    Sol:=[op(Sol),[X,&quot;=&quot;,C]];
+                    kq[u]:=det(C);
+                    temp:=convert(kq[u],string);
+                    Sol:=[op(Sol),[&quot;det(&quot;,X,&quot;)=&quot;,temp]];
+                od;
+<Font encoding="UTF-8">                Sol:=[op(Sol),[&quot;B\306\260\341\273\233c 3: &quot;]];
+</Font>                if (kq[1]&lt;&gt;0) then
+                     Sol:=[op(Sol),[&quot;<Font encoding="UTF-8">H\341\273\207 ph\306\260\306\241ng tr\303\254nh c\303\263 nghi\341\273\207m:&quot;]];</Font>
+                     for i from 2 to numelems(kq) do
+                         j:=kq[i]/kq[1];
+                         if j &lt; 0 then 
+                             temp:=cat(&quot;-&quot;,convert(abs(j),string));
+                         else
+                             temp:=convert(j,string);
+                         fi;
+                         Sol:=[op(Sol),[temp]];
+                     od;
+                else
+                     for i from 2 to numelems(kq) do
+                         if (kq[i]&lt;&gt;0) then
+                            Sol:=[op(Sol),[<Font encoding="UTF-8">&quot;H\341\273\207 ph\306\260\306\241ng tr\303\254nh v\303\264 nghi\341\273\207m&quot;</Font>]];
+                            break;
+                         fi;
+                     od;
+                     if (i=numelems(kq)+1) then
+                         Sol:=[op(Sol),[&quot;<Font encoding="UTF-8">Kh\303\264ng th\341\273\203 k\341\272\277t lu\341\272\255n</Font>&quot;]];
+                     fi;
+                fi;
+                return Sol;
+           end proc:
+
+
+    Gauss:=proc(VT,VP)
+              local A,i,j,HeSo,k,l,kt,dong,loai,m,n,temp,Sol,matran;
+              m:=RowDimension(VT);
+              n:=ColumnDimension(VT)+1;
+              A:=Matrix(m,n,0);  
+              Sol:=[];
+              for i from 1 to m do
+                  for j from 1 to n-1 do
+                      A[i,j]:=VT[i,j];
+                  od;
+                  A[i,n]:=VP[i,1];
+              od; 
+              matran:=GetMatrix(A);
+<Font encoding="UTF-8">              Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 1: &quot;,&quot;Ta c\303\263 ma tr\341\272\255n m\341\273\237 r\341\273\231ng&quot;,matran]];
+              Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 2:&quot;]];
+</Font>
+              for i from 1 to n-1 do
+                  Sol:=[op(Sol),[&quot;<Font encoding="UTF-8">Th\341\273\261c hi\341\273\207n ph\303\251p kh\341\273\255 c\303\241c ph\341\272\247n t\341\273\255 \341\273\237 c\341\273\231t&quot;,i]];</Font>
+                  if (A[i,i]=0) then
+                  for k from i+1 to m do
+                    if (A[k,i]&lt;&gt;0) then
+<Font encoding="UTF-8">                        Sol:=[op(Sol),[&quot;\304\220\341\273\225i d\303\262ng&quot;,k,&quot;v\341\273\233i d\303\262ng&quot;,i]];
+</Font>                        A:=SwapRow(A,k,i);
+                        break;
+                    fi;
+                  od;
+                  matran:=GetMatrix(A);
+                  Sol:=[op(Sol),matran];
+              fi;
+
+              for j from 1 to m do
+                 loai:=2;
+                 if (j&lt;&gt;i) and (A[j,i]&lt;&gt;0) then
+                     loai:=0;
+                 fi;
+                 
+                 if (j=i) and (A[j,i]&lt;&gt;1) then
+                     loai:=1;
+                 fi;
+
+                 if (loai=0) then
+                     for k from 1 to m do
+                         if (k&lt;&gt;j) then
+                             HeSo:=0;
+                             kt:=0;
+                             for l from 1 to (i-1) do
+                                 if (A[k,l]&lt;&gt;0) then kt:=1; fi;
+                             od;
+                             if (kt=0) and (A[k,i]&lt;&gt;0) then
+                                 dong:=k;
+                                 HeSo:=(-1)*A[j,i]/A[dong,i];
+                                 break;
+                             fi;
+                         fi;
+                     od;
+                     if (HeSo&lt;&gt;0) then
+                         temp:=convert(HeSo,string);
+                         for k from 1 to n do
+                             A[j,k]:=A[j,k]+HeSo*A[dong,k];
+                         od;
+                         matran:=GetMatrix(A);
+<Font encoding="UTF-8">                         Sol:=[op(Sol),[&quot;L\341\272\245y d\303\262ng&quot;,j,&quot;c\341\273\231ng&quot;,temp,&quot;l\341\272\247n d\303\262ng&quot;,dong,matran]];
+</Font>                     fi;
+
+                 elif (loai=1) then
+                     kt:=0;
+                     for l from 1 to (i-1) do
+                         if A[j,l]&lt;&gt;0 then kt:=1; fi;
+                     od;
+                     HeSo:=A[j,i];
+                     temp:=convert(HeSo,string);
+                     if (HeSo&lt;&gt;0) and (kt=0) then
+                         for l from 1 to n do
+                             A[j,l]:=A[j,l]/HeSo;
+                         od;
+                         matran:=GetMatrix(A);
+<Font encoding="UTF-8">                         Sol:=[op(Sol),[&quot;L\341\272\245y d\303\262ng&quot;,j,&quot;chia&quot;,temp,matran]];
+</Font>                     fi;
+                 fi;
+              od;
+
+             od;
+         
+<Font encoding="UTF-8">             Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 3: H\341\273\207 ph\306\260\306\241ng tr\303\254nh c\303\263 nghi\341\273\207m&quot;]];
+</Font>             for i from 1 to m do
+                         if A[i,n] &lt; 0 then 
+                             temp:=cat(&quot;-&quot;,convert(abs(A[i,n]),string));
+                         else
+                             temp:=convert(A[i,n],string);
+                         fi;
+                         Sol:=[op(Sol),[temp]];
+                         #Sol:=[op(Sol),[A[i,n]]];
+             od;
+             return Sol;
+         end proc:
+
+     BacThang:=proc(A)
+
+     local i,j,k,l,kt,dong,HeSo,temp,loai,m,n,matran,Sol;
+     Sol:=[];
+     matran:=GetMatrix(A);
+<Font encoding="UTF-8">     Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 1: Ta c\303\263 ma tr\341\272\255n&quot;,matran]];
+     #printf (&quot;* B\306\260\341\273\233c 1:\134nTa c\303\263 ma tr\341\272\255n\134n&quot;);
+</Font>     #print(A);
+     
+     m:=RowDimension(A);
+     n:=ColumnDimension(A);
+<Font encoding="UTF-8">     Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 2: &quot;]];
+     #printf (&quot;\134n* B\306\260\341\273\233c 2:\134n&quot;);
+</Font>     for i from 1 to (n-1) do
+         if (i+1&lt;=m) then 
+<Font encoding="UTF-8">             #printf(&quot;\134nTh\341\273\261c hi\341\273\207n ph\303\251p kh\341\273\255 c\303\241c ph\341\272\247n t\341\273\255 \341\273\237 c\341\273\231t %d\134n&quot;,i);
+             Sol:=[op(Sol),[&quot;Th\341\273\261c hi\341\273\207n ph\303\251p kh\341\273\255 c\303\241c ph\341\272\247n t\341\273\255 \341\273\237 c\341\273\231t&quot;,i]];</Font>
+         fi;
+         if A[i,i]=0 then
+             for k from (i+1) to m do
+                 if A[k,i]&lt;&gt;0 then
+<Font encoding="UTF-8">                    #printf(&quot;\134n\304\220\341\273\225i d\303\262ng %d v\341\273\233i d\303\262ng %d\134n&quot;,k,i);
+</Font>                    A:=SwapRow(A,k,i);
+                    matran:=GetMatrix(A);
+<Font encoding="UTF-8">                    Sol:=[op(Sol),[&quot;\304\220\341\273\225i d\303\262ng&quot;,k,&quot;v\341\273\233i d\303\262ng&quot;,i,matran]];
+</Font>                    break;
+                 fi;
+             od;
+         fi;
+         loai:=1;
+         for j from (i+1) to m do
+             loai:=2;
+             if A[j,i]&lt;&gt;0 then loai:=0; fi;
+             if (loai=0) then
+                 for k from 1 to m do
+                     if (k&lt;&gt;j) then
+                         HeSo:=0;
+                         kt:=0;
+                         for l from 1 to (i-1) do
+                             if A[k,l]&lt;&gt;0 then kt:=1; fi;
+                         od;
+                         if (kt=0) and (A[k,i]&lt;&gt;0) then 
+                             dong:=k;
+                             HeSo:=(-1)*A[j,i]/A[dong,i];
+                             break;
+                         fi;
+                     fi;
+                 od;
+                 
+                 if HeSo&lt;&gt;0 then
+                     temp:=convert(HeSo,string);
+<Font encoding="UTF-8">                     #printf(&quot;\134nL\341\272\245y d\303\262ng %d c\341\273\231ng %s l\341\272\247n d\303\262ng %d\134n&quot;,j,temp,dong);
+</Font>                     for k from 1 to n do 
+                         A[j,k]:=A[j,k]+HeSo*A[dong,k];
+                     od;
+                     matran:=GetMatrix(A);
+<Font encoding="UTF-8">                     Sol:=[op(Sol),[&quot;L\341\272\245y d\303\262ng&quot;,j,&quot;c\341\273\231ng&quot;,temp,&quot;l\341\272\247n d\303\262ng&quot;,dong,matran]];
+</Font>                     #print (A);
+                 fi;
+             fi;
+             if (j=m) and (loai=2) then 
+<Font encoding="UTF-8">                     #printf(&quot;\134nC\341\273\231t %d \304\221\303\243 \304\221\306\260\341\273\243c chu\341\272\251n h\303\263a\134n&quot;,i); 
+                     Sol:=[op(Sol),[&quot;C\341\273\231t&quot;,i,&quot;\304\221\303\243 \304\221\306\260\341\273\243c chu\341\272\251n h\303\263a&quot;]];
+</Font>             fi;
+         od;
+     od;
+     
+     if A[m-1,n-1]&lt;&gt;0 and A[m,n-1]&lt;&gt;0 then
+<Font encoding="UTF-8">         #printf(&quot;\134nTh\341\273\261c hi\341\273\207n ph\303\251p kh\341\273\255 c\303\241c ph\341\272\247n t\341\273\255 \341\273\237 c\341\273\231t %d\134n&quot;,n-1);
+         Sol:=[op(Sol),[&quot;Th\341\273\261c hi\341\273\207n ph\303\251p kh\341\273\255 c\303\241c ph\341\272\247n t\341\273\255 \341\273\237 c\341\273\231t&quot;,n-1]];</Font>
+         HeSo:=(-1)*A[m,n-1]/A[m-1,n-1];
+         if (HeSo&lt;&gt;0) then
+             temp:=convert(HeSo,string);
+<Font encoding="UTF-8">             #printf(&quot;\134nL\341\272\245y d\303\262ng %d c\341\273\231ng %s l\341\272\247n d\303\262ng %d\134n&quot;,m,temp,m-1);
+</Font>             for k from 1 to n do
+                 A[m,k]:=A[m,k]+HeSo*A[m-1][k];
+             od;
+             matran:=GetMatrix(A);
+<Font encoding="UTF-8">             Sol:=[op(Sol),[&quot;L\341\272\245y d\303\262ng&quot;,m,&quot;c\341\273\231ng&quot;,temp,&quot;l\341\272\247n d\303\262ng&quot;,m-1,matran]];
+</Font>             #print(A);
+         fi;
+     fi;
+     return Sol;
+     end proc:
+
+     Hang:=proc(A)
+     local i,j,k,l,kt,dong,HeSo,temp,loai,m,n,r,Sol,matran;
+     Sol:=[];
+     matran:=GetMatrix(A);
+<Font encoding="UTF-8">     Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 1: Ta c\303\263 ma tr\341\272\255n&quot;,matran]];</Font>
+<Font encoding="UTF-8">     #printf (&quot;* B\306\260\341\273\233c 1:\134nTa c\303\263 ma tr\341\272\255n\134n&quot;);
+</Font>     #print(A);
+     
+     m:=RowDimension(A);
+     n:=ColumnDimension(A);
+<Font encoding="UTF-8">     #printf (&quot;\134n* B\306\260\341\273\233c 2: Bi\341\272\277n \304\221\341\273\225i ma tr\341\272\255n th\303\240nh ma tr\341\272\255n b\341\272\255c thang&quot;);
+     Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 2:Bi\341\272\277n \304\221\341\273\225i ma tr\341\272\255n th\303\240nh ma tr\341\272\255n b\341\272\255c thang&quot;]];</Font>
+     for i from 1 to (n-1) do
+         if (i+1&lt;=m) then 
+             Sol:=[op(Sol),[&quot;<Font encoding="UTF-8">Th\341\273\261c hi\341\273\207n ph\303\251p kh\341\273\255 c\303\241c ph\341\272\247n t\341\273\255 \341\273\237 c\341\273\231t&quot;,i]];</Font>
+<Font encoding="UTF-8">             #printf(&quot;\134nTh\341\273\261c hi\341\273\207n ph\303\251p kh\341\273\255 c\303\241c ph\341\272\247n t\341\273\255 \341\273\237 c\341\273\231t %d\134n&quot;,i);
+</Font>         fi;
+         if A[i,i]=0 then
+             for k from (i+1) to m do
+                 if A[k,i]&lt;&gt;0 then
+<Font encoding="UTF-8">                    #printf(&quot;\134n\304\220\341\273\225i d\303\262ng %d v\341\273\233i d\303\262ng %d\134n&quot;,k,i);
+</Font>                    A:=SwapRow(A,k,i);
+                    matran:=GetMatrix(A);
+                    <Font encoding="UTF-8">Sol:=[op(Sol),[&quot;\304\220\341\273\225i d\303\262ng&quot;,k,&quot;v\341\273\233i d\303\262ng&quot;,i,matran]];</Font>
+                    break;
+                 fi;
+             od;
+         fi;
+         loai:=1;
+         for j from (i+1) to m do
+             loai:=2;
+             if A[j,i]&lt;&gt;0 then loai:=0; fi;
+             if (loai=0) then
+                 for k from 1 to m do
+                     if (k&lt;&gt;j) then
+                         HeSo:=0;
+                         kt:=0;
+                         for l from 1 to (i-1) do
+                             if A[k,l]&lt;&gt;0 then kt:=1; fi;
+                         od;
+                         if (kt=0) and (A[k,i]&lt;&gt;0) then 
+                             dong:=k;
+                             HeSo:=(-1)*A[j,i]/A[dong,i];
+                             break;
+                         fi;
+                     fi;
+                 od;
+                 
+                 if HeSo&lt;&gt;0 then
+                     temp:=convert(HeSo,string);
+<Font encoding="UTF-8">                     #printf(&quot;\134nL\341\272\245y d\303\262ng %d c\341\273\231ng %s l\341\272\247n d\303\262ng %d\134n&quot;,j,temp,dong);
+</Font>                     matran:=GetMatrix(A);
+<Font encoding="UTF-8">                     Sol:=[op(Sol),[&quot;L\341\272\245y d\303\262ng&quot;,j,&quot;c\341\273\231ng&quot;,temp,&quot;l\341\272\247n d\303\262ng&quot;,dong,matran]];</Font>
+                     for k from 1 to n do 
+                         A[j,k]:=A[j,k]+HeSo*A[dong,k];
+                     od;
+                     #print (A);
+                 fi;
+             fi;
+             if (j=m) and (loai=2) then 
+<Font encoding="UTF-8">                     #printf(&quot;\134nC\341\273\231t %d \304\221\303\243 \304\221\306\260\341\273\243c chu\341\272\251n h\303\263a\134n&quot;,i); 
+                     Sol:=[op(Sol),[&quot;C\341\273\231t&quot;,i,&quot;\304\221\303\243 \304\221\306\260\341\273\243c chu\341\272\251n h\303\263a&quot;]];</Font>
+             fi;
+         od;
+     od;
+     
+     if A[m-1,n-1]&lt;&gt;0 and A[m,n-1]&lt;&gt;0 then
+<Font encoding="UTF-8">         #printf(&quot;\134nTh\341\273\261c hi\341\273\207n ph\303\251p kh\341\273\255 c\303\241c ph\341\272\247n t\341\273\255 \341\273\237 c\341\273\231t %d\134n&quot;,n-1);</Font>
+         Sol:=[op(Sol),[&quot;<Font encoding="UTF-8">Th\341\273\261c hi\341\273\207n ph\303\251p kh\341\273\255 c\303\241c ph\341\272\247n t\341\273\255 \341\273\237 c\341\273\231t&quot;,n-1]];</Font>
+         HeSo:=(-1)*A[m,n-1]/A[m-1,n-1];
+         if (HeSo&lt;&gt;0) then
+             temp:=convert(HeSo,string);
+<Font encoding="UTF-8">             #printf(&quot;\134nL\341\272\245y d\303\262ng %d c\341\273\231ng %s l\341\272\247n d\303\262ng %d\134n&quot;,m,temp,m-1);
+</Font>             for k from 1 to n do
+                 A[m,k]:=A[m,k]+HeSo*A[m-1][k];
+             od;
+             matran:=GetMatrix(A);
+<Font encoding="UTF-8">             Sol:=[op(Sol),[&quot;L\341\272\245y d\303\262ng&quot;,m,&quot;c\341\273\231ng&quot;,temp,&quot;l\341\272\247n d\303\262ng&quot;,m-1,matran]];</Font>
+             #print(A);
+         fi;
+     fi;
+     r:=0;
+     for i from 1 to m do
+        for j from 1 to n do
+            if A[i,j]&lt;&gt;0 then 
+                r:=r+1;
+                break;
+            fi;
+        od; 
+     od;
+<Font encoding="UTF-8">     #printf (&quot;* B\306\260\341\273\233c 3:\134nH\341\272\241ng c\341\273\247a ma tr\341\272\255n l\303\240: %d\134n&quot;,r);
+     Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 3: H\341\272\241ng c\341\273\247a ma tr\341\272\255n l\303\240:&quot;,r]];
+</Font>     return Sol;
+     end proc:
+     
+     NghichDao:=proc(MT)
+              local A,i,j,HeSo,k,l,kt,dong,loai,m,n,temp,res,matran,Sol;
+              m:=RowDimension(MT);
+              n:=ColumnDimension(MT);
+              Sol:=[];
+              if (m&lt;&gt;n) then 
+<Font encoding="UTF-8">                   #printf(&quot;Kh\303\264ng c\303\263 ma tr\341\272\255n ngh\341\273\213ch \304\221\341\272\243o\134n&quot;); 
+                   Sol:=[op(Sol),[&quot;Kh\303\264ng c\303\263 ma tr\341\272\255n ngh\341\273\213ch \304\221\341\272\243o&quot;]];</Font>
+              else
+              A:=Matrix(m,n*2,0);  
+              for i from 1 to m do
+                  for j from 1 to n do
+                      A[i,j]:=MT[i,j];
+                  od;
+              od; 
+
+              for i from 1 to m do
+                  for j from n+1 to n*2 do
+                      if (j-n=i) then
+                          A[i,j]:=1;
+                      else
+                          A[i,j]:=0;
+                      fi;
+                  od;
+              od;
+              
+              n:=n*2;
+
+<Font encoding="UTF-8">              #printf(&quot;* B\306\260\341\273\233c 1: \134nTa c\303\263 ma tr\341\272\255n A|I\134n&quot;);
+</Font>              #print(A);
+<Font encoding="UTF-8">              #printf (&quot;* B\306\260\341\273\233c 2:\134n&quot;);
+</Font>              matran:=GetMatrix(A);
+<Font encoding="UTF-8">              Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 1: Ta c\303\263 ma tr\341\272\255n A|I&quot;,matran]];
+              Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 2:&quot;]];
+</Font>              for i from 1 to n/2 do
+<Font encoding="UTF-8">                  #printf(&quot;\134nTh\341\273\261c hi\341\273\207n ph\303\251p kh\341\273\255 c\303\241c ph\341\272\247n t\341\273\255 \341\273\237 c\341\273\231t %d\134n&quot;,i);
+</Font>                  Sol:=[op(Sol),[&quot;<Font encoding="UTF-8">Th\341\273\261c hi\341\273\207n ph\303\251p kh\341\273\255 c\303\241c ph\341\272\247n t\341\273\255 \341\273\237 c\341\273\231t</Font>&quot;,i]];
+                  if (A[i,i]=0) then
+                  for k from i+1 to m do
+                    if (A[k,i]&lt;&gt;0) then
+<Font encoding="UTF-8">                        #printf (&quot;\304\220\341\273\225i d\303\262ng %d v\341\273\233i d\303\262ng %d\134n&quot;,k,i);
+</Font>                        A:=SwapRow(A,k,i);
+<Font encoding="UTF-8">                        Sol:=[op(Sol),[&quot;\304\220\341\273\225i d\303\262ng&quot;,k,&quot;v\341\273\233i d\303\262ng&quot;,i]];
+</Font>                        break;
+                    fi;
+                  od;
+                  #print(A);
+                  matran:=GetMatrix(A);
+                  Sol:=[op(Sol),matran];
+              fi;
+
+              for j from 1 to m do
+                 loai:=2;
+                 if (j&lt;&gt;i) and (A[j,i]&lt;&gt;0) then
+                     loai:=0;
+                 fi;
+                 
+                 if (j=i) and (A[j,i]&lt;&gt;1) then
+                     loai:=1;
+                 fi;
+
+                 if (loai=0) then
+                     for k from 1 to m do
+                         if (k&lt;&gt;j) then
+                             HeSo:=0;
+                             kt:=0;
+                             for l from 1 to (i-1) do
+                                 if (A[k,l]&lt;&gt;0) then kt:=1; fi;
+                             od;
+                             if (kt=0) and (A[k,i]&lt;&gt;0) then
+                                 dong:=k;
+                                 HeSo:=(-1)*A[j,i]/A[dong,i];
+                                 break;
+                             fi;
+                         fi;
+                     od;
+                     if (HeSo&lt;&gt;0) then
+                         temp:=convert(HeSo,string);
+<Font encoding="UTF-8">                         #printf (&quot;\134nL\341\272\245y d\303\262ng %d c\341\273\231ng %s l\341\272\247n d\303\262ng %d\134n&quot;,j,temp,dong);
+</Font>                         for k from 1 to n do
+                             A[j,k]:=A[j,k]+HeSo*A[dong,k];
+                         od;
+                         matran:=GetMatrix(A);
+<Font encoding="UTF-8">                         Sol:=[op(Sol),[&quot;L\341\272\245y d\303\262ng&quot;,j,&quot;c\341\273\231ng&quot;,temp,&quot;l\341\272\247n d\303\262ng&quot;,dong,matran]];
+</Font>                         #print(A);
+                     fi;
+
+                 elif (loai=1) then
+                     kt:=0;
+                     for l from 1 to (i-1) do
+                         if A[j,l]&lt;&gt;0 then kt:=1; fi;
+                     od;
+                     HeSo:=A[j,i];
+                     temp:=convert(HeSo,string);
+                     if (HeSo&lt;&gt;0) and (kt=0) then
+<Font encoding="UTF-8">                         #printf(&quot;\134nL\341\272\245y d\303\262ng %d chia %s\134n&quot;,j,temp);
+</Font>                         for l from 1 to n do
+                             A[j,l]:=A[j,l]/HeSo;
+                         od;
+                         matran:=GetMatrix(A);
+<Font encoding="UTF-8">                         Sol:=[op(Sol),[&quot;L\341\272\245y d\303\262ng&quot;,j,&quot;chia&quot;,temp,matran]];
+</Font>                         #print(A);
+                     fi;
+                 fi;
+              od;
+
+             od;
+         
+             res:=Matrix(m,n/2,0);
+<Font encoding="UTF-8">             #printf (&quot;* B\306\260\341\273\233c 3:\134n&quot;);
+             #printf (&quot;Ma tr\341\272\255n ngh\341\273\213ch \304\221\341\272\243o l\303\240:\134n&quot;);
+</Font>             for i from 1 to m do
+                 for j from 1 to n/2 do
+                        res[i,j]:=A[i,j+n/2];
+                 od;
+             od;
+             matran:=GetMatrix(res);
+<Font encoding="UTF-8">             Sol:=[op(Sol),[&quot;* B\306\260\341\273\233c 3: Ma tr\341\272\255n ngh\341\273\213ch \304\221\341\272\243o l\303\240:&quot;,res]];
+</Font>             fi;
+             return Sol;
+         end proc:
+
+
+         StepSolve:=proc(solve)
+             local i,j,S,st,uv,t;
+             S:=[];
+             for i from 1 to nops(solve) do
+                 st:=&quot;&quot;;
+                 uv:=&quot;&quot;;
+                 if type(op(i,solve)[nops(op(i,solve))],`Matrix`) then
+                     uv:=cat(uv,GetLatex(op(i,solve)[nops(op(i,solve))]));
+                 fi;
+                 for j from 1 to nops(op(i,solve)) do
+                     if not type(op(i,solve)[j],`Matrix`) then
+                         st:=cat(st,op(i,solve)[j],&quot; &quot;);
+                     fi;
+                 od;
+                 S:=[op(S),st];
+                 if (uv&lt;&gt;&quot;&quot;) then S:=[op(S),uv]; fi;
+             od;
+             return S;
+         end proc:
+end module:</Text-field>
+</Input>
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" alignment="left" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1"><Font encoding="UTF-8">T\341\272\241o package</Font></Text-field></Title>
+<Group labelreference="L37" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">packageDir:=cat(currentdir(),kernelopts(dirsep),&quot;package.mla&quot;);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVErcGFja2FnZURpckYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSNtc0dGJDYjUWJvQzpcVXNlcnNcVExcRGVza3RvcFxEYWlTb1R1eWVuVGluaFxEYWlTb1R1eWVuVGluaFxiaW5cRGVidWdccGFja2FnZS5tbGFGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5">UWJvQzpcVXNlcnNcVExcRGVza3RvcFxEYWlTb1R1eWVuVGluaFxEYWlTb1R1eWVuVGluaFxiaW5cRGVidWdccGFja2FnZS5tbGE2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L38" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">if FileTools:-Exists(packageDir) then FileTools:-Remove(packageDir) end if; LibraryTools:-Create(packageDir);#kiem tra ton tai va tao file</Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20FileTools%3A-Remove)%20failed%20to%20remove%20the%20following%20files%3A%20%5B%22C%3A%5CUsers%5CTL%5CDesktop%5CDaiSoTuyenTinh%5CDaiSoTuyenTinh%5Cbin%5CDebug%5Cpackage.mla%22%5D" hyperlink="true"><Font style="HyperlinkError" encoding="UTF-8">Error, (in FileTools:-Remove) failed to remove the following files: [&quot;C:\134Users\134TL\134Desktop\134DaiSoTuyenTinh\134DaiSoTuyenTinh\134bin\134Debug\134package.mla&quot;]</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20march)%20there%20is%20already%20an%20archive%20in%20%22C%3A%5CUsers%5CTL%5CDesktop%5CDaiSoTuyenTinh%5CDaiSoTuyenTinh%5Cbin%5CDebug%5Cpackage.mla%22" hyperlink="true"><Font style="HyperlinkError" encoding="UTF-8">Error, (in march) there is already an archive in &quot;C:\134Users\134TL\134Desktop\134DaiSoTuyenTinh\134DaiSoTuyenTinh\134bin\134Debug\134package.mla&quot;</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L36" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">savelibname:=packageDir; #Cach 1
+savelib('DSTT');</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEsc2F2ZWxpYm5hbWVGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkjbXNHRiQ2I1Fib0M6XFVzZXJzXFRMXERlc2t0b3BcRGFpU29UdXllblRpbmhcRGFpU29UdXllblRpbmhcYmluXERlYnVnXHBhY2thZ2UubWxhRicvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj1GOQ==">UWJvQzpcVXNlcnNcVExcRGVza3RvcFxEYWlTb1R1eWVuVGluaFxEYWlTb1R1eWVuVGluaFxiaW5cRGVidWdccGFja2FnZS5tbGE2Ig==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L39" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">march('list', packageDir);</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">Ny03JlEnOi0xNC5tNiI3KCIlOz8iIiciI0ciIiEiI0kiIz8iJm5QJiIlSjY3JlEnOi0xOS5tRiVGJiImJnpoIiNwNyZRJzotMTUubUYlRiYiJjQ/JiIlZTw3JlEnOi0xMC5tRiVGJiImaS8nIiVMODcmUSc6LTExLm1GJUYmIiY1eiYiJXQ6NyZRJzotMTYubUYlRiYiJk0oZiIkXSQ3JlEnRFNUVC5tRiVGJiImODwmIiQnSDcmUSc6LTEyLm1GJUYmIiZNbCYiJXc4NyZRJzotMTcubUYlRiYiJiRbZiIkXiM3JlEnOi0xMy5tRiVGJiImKSpbJiIlTzs3JlEnOi0xOC5tRiVGJiImJTNnIiR5JA==</Equation></Text-field>
+</Output>
+</Group>
+</Section>
+<Group labelreference="L35" drawlabel="true" applyint="true" applyrational="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
